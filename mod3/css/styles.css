@@ -1,7 +1,43 @@
-h1 {
-	color: red;
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+ul {
+	padding: 0;
+}
+
+#header-nav {
+	background-color: #f6b319; /* yellow */
+	border-radius: 0;
+	border: 0;
+	border: 2px solid black;
+}
+
+#collapsable-nav {
+	border-radius: 0;
+	padding: 0px;
+}
+
+#nav-list a{
+	color: black;
 	text-align: center;
+	text-decoration:  none;
+	padding-top: 10px;
 }
-#header-nav{
-	background-color: black;
+
+a:hover { 
+    background-color: red;
 }
+
+.visible-xs {
+	
+	border: 1px solid black;
+	text-align: center;
+	background-color: #808080;
+	opacity: 0.8;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 0 !important;
