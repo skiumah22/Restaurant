@@ -6,11 +6,12 @@ body {
 }
 
 ul {
-	padding: 0;
+	padding: 0px;
 }
 
+
 #header-nav {
-	background-color: #f6b319; /* yellow */
+	background-color: #f6b319;
 	border-radius: 0;
 	border: 0;
 	border: 2px solid black;
@@ -19,21 +20,25 @@ ul {
 #collapsable-nav {
 	border-radius: 0;
 	padding: 0px;
+	overflow: hidden;
+	height: 135px;
+	
+	
 }
 
 #nav-list a{
 	color: black;
 	text-align: center;
 	text-decoration:  none;
-	padding-top: 10px;
 }
 
-a:hover { 
-    background-color: red;
+a:hover p{ 
+    background-color: white;
+    margin: 0px;
+    text-decoration:  none;
 }
 
 .visible-xs {
-	
 	border: 1px solid black;
 	text-align: center;
 	background-color: #808080;
@@ -41,3 +46,9 @@ a:hover {
 	font-size: 1.2em;
 	font-weight: bold;
 	padding-bottom: 0 !important;
+}
+
+.visible-xs p{
+	margin: 0px;
+	padding: 8px;
+}
